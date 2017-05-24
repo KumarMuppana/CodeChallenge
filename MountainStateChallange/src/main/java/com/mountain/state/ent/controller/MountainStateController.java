@@ -17,6 +17,10 @@ public class MountainStateController {
 
 	@Autowired
 	Mutiples multiples;
+	
+	/*
+	 * This controller takes two path variables param1 and param2 as inputs to return the json object
+	 */
 
 	@RequestMapping(value = "/getmultiples/{parameter1}/{parameter2}", method = RequestMethod.GET, produces = "applicaton/json")
 	public String getMutiples(@PathVariable("parameter1") int parameter1, @PathVariable("parameter2") int parameter2) {

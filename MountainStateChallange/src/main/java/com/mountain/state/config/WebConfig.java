@@ -4,7 +4,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
-
+/*
+ * This class helps to give highest precedence to the index.html when it is loaded to the application server(tomcat server) 
+ */
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter{
 

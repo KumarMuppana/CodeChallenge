@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
  * @Param2 input2
  * @ResultSet: It gives sorted elements in the Treemap 
  * This class helps us to convert the multiples of 3 ,multiples of 7 and multiples of both 3 and 7 to "ME","MS3" 
- * and "MS3 and ME" respectively
+ * and "MS3 and ME"  respectively
  */
 @Service
 public class Mutiples {
